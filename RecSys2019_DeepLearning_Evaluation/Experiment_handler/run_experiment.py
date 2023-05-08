@@ -9,7 +9,7 @@ and they are deterministic since we pass random seeds to the split function.
 """
 import argparse
 from pathlib import Path
-from Experiment_handler.Experiment import Experiment
+from Experiment import Experiment
 
 
 def run(args):
